@@ -8,16 +8,19 @@
 # NO, NOT SINCE 1938!
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
-# 'I LOVE YOU TOO PUMPKIN!'=
-require_relative '../grandma.rb'
+# 'I LOVE YOU TOO PUMPKIN!'
+require_relative
 require 'pry'
 def speak_to_grandma(phrase)
+  phrase
 binding.pry
-  if phrase == 'I LOVE YOU GRANDMA!'
-    return 'I LOVE YOU TOO PUMPKIN!'
-  elsif phrase != phrase.upcase
-   'HUH?! SPEAK UP, SONNY!'
- elsif
-   NO, NOT SINCE 1938!
+if phrase == '(I LOVE YOU GRANDMA!)'
+  return '(I LOVE YOU TOO PUMPKIN!)'
+elsif phrase == phrase.uppercase
+ return NO, NOT SINCE 1938!
+else
+    'HUH?! SPEAK UP, SONNY!'
   end
 end
+=======
+>>>>>>> 3db39c61b5608f9c79c2a7da041bdbe0c5442b8b
