@@ -9,7 +9,6 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-require_relative
 require 'pry'
 def speak_to_grandma(phrase)
   phrase
@@ -22,5 +21,4 @@ else
     'HUH?! SPEAK UP, SONNY!'
   end
 end
-=======
->>>>>>> 3db39c61b5608f9c79c2a7da041bdbe0c5442b8b
+
